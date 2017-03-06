@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B7AD489F0D918408F90BEA1 /* libPods-libyuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3CE0B883FDF2DE5B9192385 /* libPods-libyuv.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E3A17EC1E6D7B5700850750 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E3A17EE1E6D7B5700850750 /* liblibyuv.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibyuv.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		416D093F5DA840EA49D039B0 /* Pods-libyuv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libyuv.release.xcconfig"; path = "Pods/Target Support Files/Pods-libyuv/Pods-libyuv.release.xcconfig"; sourceTree = "<group>"; };
+		E3CE0B883FDF2DE5B9192385 /* libPods-libyuv.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libyuv.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED34A568D826939AB151287 /* Pods-libyuv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libyuv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libyuv/Pods-libyuv.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E3A17EB1E6D7B5700850750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7AD489F0D918408F90BEA1 /* libPods-libyuv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E3A17E51E6D7B5700850750 = {
+			isa = PBXGroup;
+			children = (
+				3E3A17F01E6D7B5700850750 /* libyuv */,
+				3E3A17EF1E6D7B5700850750 /* Products */,
+				8E56F3E00D4F9D7053673252 /* Pods */,
+				BD47B45C17AFCE00768C381A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E3A17EF1E6D7B5700850750 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E3A17EE1E6D7B5700850750 /* liblibyuv.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E3A17F01E6D7B5700850750 /* libyuv */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libyuv;
+			sourceTree = "<group>";
+		};
+		8E56F3E00D4F9D7053673252 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FED34A568D826939AB151287 /* Pods-libyuv.debug.xcconfig */,
+				416D093F5DA840EA49D039B0 /* Pods-libyuv.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD47B45C17AFCE00768C381A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3CE0B883FDF2DE5B9192385 /* libPods-libyuv.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E3A17ED1E6D7B5700850750 /* libyuv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E3A17F71E6D7B5700850750 /* Build configuration list for PBXNativeTarget "libyuv" */;
+			buildPhases = (
+				E43AA716C4417970B2366C47 /* [CP] Check Pods Manifest.lock */,
+				3E3A17EA1E6D7B5700850750 /* Sources */,
+				3E3A17EB1E6D7B5700850750 /* Frameworks */,
+				3E3A17EC1E6D7B5700850750 /* CopyFiles */,
+				FD6495FD847A02D72C4917A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libyuv;
+			productName = libyuv;
+			productReference = 3E3A17EE1E6D7B5700850750 /* liblibyuv.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E3A17E61E6D7B5700850750 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = goccy;
+				TargetAttributes = {
+					3E3A17ED1E6D7B5700850750 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3E3A17E91E6D7B5700850750 /* Build configuration list for PBXProject "libyuv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E3A17E51E6D7B5700850750;
+			productRefGroup = 3E3A17EF1E6D7B5700850750 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E3A17ED1E6D7B5700850750 /* libyuv */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E43AA716C4417970B2366C47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD6495FD847A02D72C4917A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libyuv/Pods-libyuv-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E3A17EA1E6D7B5700850750 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E3A17F51E6D7B5700850750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E3A17F61E6D7B5700850750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E3A17F81E6D7B5700850750 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED34A568D826939AB151287 /* Pods-libyuv.debug.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3E3A17F91E6D7B5700850750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416D093F5DA840EA49D039B0 /* Pods-libyuv.release.xcconfig */;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E3A17E91E6D7B5700850750 /* Build configuration list for PBXProject "libyuv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3A17F51E6D7B5700850750 /* Debug */,
+				3E3A17F61E6D7B5700850750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E3A17F71E6D7B5700850750 /* Build configuration list for PBXNativeTarget "libyuv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E3A17F81E6D7B5700850750 /* Debug */,
+				3E3A17F91E6D7B5700850750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E3A17E61E6D7B5700850750 /* Project object */;
+}
