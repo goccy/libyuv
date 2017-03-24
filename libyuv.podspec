@@ -9,6 +9,9 @@ Pod::Spec.new do |s|
   s.author       = { "goccy" => "goccy54@gmail.com" }
   s.requires_arc = false
   s.header_mappings_dir = 'include'
+  s.xcconfig = {
+    HEADER_SEARCH_PATHS: '"${PODS_ROOT}/libyuv/include"'
+  }
   s.source_files   = "source/*.{cc}", "include/**/*.{h}"
   s.source = {
     :git => "git@github.com:goccy/libyuv.git"
